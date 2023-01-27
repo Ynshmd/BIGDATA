@@ -4,7 +4,7 @@ services:
     image: andreper/jupyterlab:3.0.0-spark-3.0.0
     container_name: jupyterlab
     ports:
-      - 8888:8888
+      - 8888:8888 /
       - 4040:4040
     volumes:
       - ./pak:/opt/workspace/     
